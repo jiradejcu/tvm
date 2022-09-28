@@ -24,9 +24,9 @@ cd /usr
 git clone https://github.com/apache/tvm tvm --recursive
 cd /usr/tvm
 # checkout a hash-tag
-git checkout 4b13bf668edc7099b38d463e5db94ebc96c80470
+git checkout v0.9.0
 
-echo set\(USE_LLVM llvm-config-8\) >> config.cmake
+echo set\(USE_LLVM llvm-config-11\) >> config.cmake
 echo set\(USE_GRAPH_EXECUTOR ON\) >> config.cmake
 echo set\(USE_BLAS openblas\) >> config.cmake
 mkdir -p build

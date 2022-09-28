@@ -18,7 +18,7 @@
 # Minimum docker image for demo purposes
 # CI docker GPU env
 # tag: v0.54
-FROM tlcpack/ci-gpu:v0.55
+FROM tlcpack/ci-gpu:v0.87
 
 COPY utils/apt-install-and-clear.sh /usr/local/bin/apt-install-and-clear
 
